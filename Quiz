@@ -1,0 +1,5 @@
+class Square():
+	def setSide(self,side):
+		return side*4
+a = Square()
+print (a.setSide(1.0))
